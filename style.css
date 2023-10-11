@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+}
+.container {
+  width: 700px;
+  margin: 20% auto;
+  height: 100vh;
+}
+
+#inputText {
+  width: 60%;
+}
+#submit-btn {
+  padding: 10px;
+}
+input {
+  height: 56px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.container form {
+  display: flex;
+  margin-bottom: 10%;
+}
+.user {
+  display: flex;
+  border-bottom: 1px solid black;
+  height: 200px;
+  align-items: center;
+}
+
+.user .names {
+  font-weight: bold;
+}
+
+.user .location {
+  font-size: 16px;
+}
+.items img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 10px;
+  /* float: left; */
+}
+
+.items p {
+  margin-top: 20px;
+}
